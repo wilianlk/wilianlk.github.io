@@ -35,7 +35,7 @@ def section(title, body):
         story.append(para(item, "bullet" if item.startswith("•") else "body"))
 
 story += [para("WILLIAM LUCUMÍ", "name"), para("LÍDER TÉCNICO · DESARROLLADOR FULL STACK", "title"),
-          para("Cali, Colombia  |  wilian.andres@hotmail.es  |  github.com/wilianlk<br/>linkedin.com/in/william-andres-lucumi-hurtado-243743248", "contact"),
+          para("Cali, Colombia  |  wilian.andres@hotmail.es  |  github.com/wilianlk<br/>linkedin.com/in/william-andres-lucumi-hurtado-243743248  |  Portafolio: <link href=\"https://wilianlk.github.io\" color=\"#345fe6\">wilianlk.github.io</link>", "contact"),
           HRFlowable(width="100%", color=blue, thickness=1)]
 section("PERFIL", ["Más de 9 años de experiencia en desarrollo, arquitectura de soluciones y liderazgo técnico. Conecto necesidades de negocio con productos digitales, ecommerce e integraciones empresariales, desde el alcance y el MVP hasta producción y operación. He llevado a producción 27 soluciones full stack."])
 section("CAPACIDADES", ["<b>Desarrollo:</b> C#, .NET, React, TypeScript, JavaScript y APIs REST/SOAP.",
@@ -52,7 +52,7 @@ section("EXPERIENCIA", ["<b>2024–actualidad · Recamier S.A. · Liderazgo téc
 section("FORMACIÓN", ["Ingeniería Informática, en curso · Técnico en Análisis y Desarrollo de Sistemas de Información · Foundational C# with Microsoft (freeCodeCamp)."])
 
 story += [PageBreak(), para("WILLIAM LUCUMÍ", "name"), para("TECHNICAL LEADER · FULL STACK DEVELOPER", "title"),
-          para("Cali, Colombia  |  wilian.andres@hotmail.es  |  github.com/wilianlk<br/>linkedin.com/in/william-andres-lucumi-hurtado-243743248", "contact"),
+          para("Cali, Colombia  |  wilian.andres@hotmail.es  |  github.com/wilianlk<br/>linkedin.com/in/william-andres-lucumi-hurtado-243743248  |  Portfolio: <link href=\"https://wilianlk.github.io\" color=\"#345fe6\">wilianlk.github.io</link>", "contact"),
           HRFlowable(width="100%", color=blue, thickness=1)]
 section("PROFILE", ["9+ years of experience in development, solution architecture, and technical leadership. I connect business needs with digital products, ecommerce, and enterprise integrations, from scope and MVP to production and operations. I have delivered 27 full stack solutions to production."])
 section("CAPABILITIES", ["<b>Development:</b> C#, .NET, React, TypeScript, JavaScript, and REST/SOAP APIs.",
