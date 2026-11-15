@@ -1,0 +1,8 @@
+services:
+  portfolio:
+    build:
+      context: .
+    image: william-lucumi-portfolio:local
+    ports:
+      - "8088:80"
+    restart: unless-stopped
