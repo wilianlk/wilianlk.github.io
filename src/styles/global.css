@@ -48,9 +48,7 @@
 @media(max-width:900px) { .project-detail { grid-column:2; } }
 @media(max-width:540px) { .hero-mark { min-height:390px; padding:1rem; } .explorer-flow { gap:.3rem; padding:1.5rem 0; } .flow-node { min-height:80px; padding:.35rem; } .hero-mark .flow-node strong { font-size:.63rem; } .explorer-bottom { align-items:start; flex-direction:column; gap:.7rem; } .project-detail { grid-column:auto; } }
 .impact-grid { grid-template-columns:repeat(3,minmax(0,1fr)); }
-.impact-card:nth-child(n+4), .skill-group:nth-child(n+4) { display:none; }
-.skill-group:nth-child(3) { display:none; }
-.skill-group:nth-child(4) { display:grid; }
+.impact-card:nth-child(n+4) { display:none; }
 .impact-card:nth-child(3) { border-right:0; }
 .project-decision { margin-bottom:1.3rem; padding:1rem; border-radius:.4rem; background:#e2e9ff; }
 .project-decision span { color:#405ce4; font:600 .6rem var(--mono); text-transform:uppercase; letter-spacing:.06em; }
